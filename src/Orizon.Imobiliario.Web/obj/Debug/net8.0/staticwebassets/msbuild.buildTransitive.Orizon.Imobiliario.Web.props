@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Orizon.Imobiliario.Web.props" />
+</Project>

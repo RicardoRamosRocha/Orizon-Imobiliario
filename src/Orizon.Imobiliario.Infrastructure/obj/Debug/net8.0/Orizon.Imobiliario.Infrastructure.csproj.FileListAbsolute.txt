@@ -1,0 +1,17 @@
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/bin/Debug/net8.0/Orizon.Imobiliario.Infrastructure.deps.json
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/bin/Debug/net8.0/Orizon.Imobiliario.Infrastructure.dll
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/bin/Debug/net8.0/Orizon.Imobiliario.Infrastructure.pdb
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/bin/Debug/net8.0/Orizon.Imobiliario.Application.dll
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/bin/Debug/net8.0/Orizon.Imobiliario.Domain.dll
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/bin/Debug/net8.0/Orizon.Imobiliario.Domain.pdb
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/bin/Debug/net8.0/Orizon.Imobiliario.Application.pdb
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/Orizon.Imobiliario.Infrastructure.csproj.AssemblyReference.cache
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/Orizon.Imobiliario.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/Orizon.Imobiliario.Infrastructure.AssemblyInfoInputs.cache
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/Orizon.Imobiliario.Infrastructure.AssemblyInfo.cs
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/Orizon.Imobiliario.Infrastructure.csproj.CoreCompileInputs.cache
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/Orizon.I.ABB059B2.Up2Date
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/Orizon.Imobiliario.Infrastructure.dll
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/refint/Orizon.Imobiliario.Infrastructure.dll
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/Orizon.Imobiliario.Infrastructure.pdb
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/Debug/net8.0/ref/Orizon.Imobiliario.Infrastructure.dll

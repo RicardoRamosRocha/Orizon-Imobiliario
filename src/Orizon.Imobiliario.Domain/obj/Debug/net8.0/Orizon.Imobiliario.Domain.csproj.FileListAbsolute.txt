@@ -1,0 +1,11 @@
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/bin/Debug/net8.0/Orizon.Imobiliario.Domain.deps.json
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/bin/Debug/net8.0/Orizon.Imobiliario.Domain.dll
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/bin/Debug/net8.0/Orizon.Imobiliario.Domain.pdb
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/Debug/net8.0/Orizon.Imobiliario.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/Debug/net8.0/Orizon.Imobiliario.Domain.AssemblyInfoInputs.cache
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/Debug/net8.0/Orizon.Imobiliario.Domain.AssemblyInfo.cs
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/Debug/net8.0/Orizon.Imobiliario.Domain.csproj.CoreCompileInputs.cache
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/Debug/net8.0/Orizon.Imobiliario.Domain.dll
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/Debug/net8.0/refint/Orizon.Imobiliario.Domain.dll
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/Debug/net8.0/Orizon.Imobiliario.Domain.pdb
+/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/Debug/net8.0/ref/Orizon.Imobiliario.Domain.dll

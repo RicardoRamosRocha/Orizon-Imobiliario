@@ -1,0 +1,341 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/usuario/Orizon-Imobiliario/tests/Orizon.Imobiliario.Web.Tests/Orizon.Imobiliario.Web.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Application/Orizon.Imobiliario.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Application/Orizon.Imobiliario.Application.csproj",
+        "projectName": "Orizon.Imobiliario.Application",
+        "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Application/Orizon.Imobiliario.Application.csproj",
+        "packagesPath": "/home/usuario/.nuget/packages/",
+        "outputPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/Orizon.Imobiliario.Domain.csproj": {
+                "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/Orizon.Imobiliario.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/Orizon.Imobiliario.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/Orizon.Imobiliario.Domain.csproj",
+        "projectName": "Orizon.Imobiliario.Domain",
+        "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/Orizon.Imobiliario.Domain.csproj",
+        "packagesPath": "/home/usuario/.nuget/packages/",
+        "outputPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/Orizon.Imobiliario.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/Orizon.Imobiliario.Infrastructure.csproj",
+        "projectName": "Orizon.Imobiliario.Infrastructure",
+        "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/Orizon.Imobiliario.Infrastructure.csproj",
+        "packagesPath": "/home/usuario/.nuget/packages/",
+        "outputPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Application/Orizon.Imobiliario.Application.csproj": {
+                "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Application/Orizon.Imobiliario.Application.csproj"
+              },
+              "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/Orizon.Imobiliario.Domain.csproj": {
+                "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Domain/Orizon.Imobiliario.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Web/Orizon.Imobiliario.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Web/Orizon.Imobiliario.Web.csproj",
+        "projectName": "Orizon.Imobiliario.Web",
+        "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Web/Orizon.Imobiliario.Web.csproj",
+        "packagesPath": "/home/usuario/.nuget/packages/",
+        "outputPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Application/Orizon.Imobiliario.Application.csproj": {
+                "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Application/Orizon.Imobiliario.Application.csproj"
+              },
+              "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/Orizon.Imobiliario.Infrastructure.csproj": {
+                "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Infrastructure/Orizon.Imobiliario.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/usuario/Orizon-Imobiliario/tests/Orizon.Imobiliario.Web.Tests/Orizon.Imobiliario.Web.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/usuario/Orizon-Imobiliario/tests/Orizon.Imobiliario.Web.Tests/Orizon.Imobiliario.Web.Tests.csproj",
+        "projectName": "Orizon.Imobiliario.Web.Tests",
+        "projectPath": "/home/usuario/Orizon-Imobiliario/tests/Orizon.Imobiliario.Web.Tests/Orizon.Imobiliario.Web.Tests.csproj",
+        "packagesPath": "/home/usuario/.nuget/packages/",
+        "outputPath": "/home/usuario/Orizon-Imobiliario/tests/Orizon.Imobiliario.Web.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/usuario/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Web/Orizon.Imobiliario.Web.csproj": {
+                "projectPath": "/home/usuario/Orizon-Imobiliario/src/Orizon.Imobiliario.Web/Orizon.Imobiliario.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
