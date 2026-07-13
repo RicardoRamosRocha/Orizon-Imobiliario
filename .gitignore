@@ -1,0 +1,114 @@
+# Build
+
+bin/
+obj/
+
+# User-specific
+
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+
+.vscode/
+
+# Visual Studio
+
+.vs/
+
+# Rider
+
+.idea/
+
+# Logs
+
+*.log
+
+# ASP.NET
+
+appsettings.Development.json
+
+# Secrets
+
+secrets.json
+
+# Environment
+
+.env
+.env.*
+
+# Certificates
+
+*.pfx
+*.snk
+
+# NuGet
+
+*.nupkg
+packages/
+
+# Publish
+
+publish/
+artifacts/
+
+# Node
+
+node_modules/
+
+# Coverage
+
+TestResults/
+coverage/
+coverage-report/
+
+# OS
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# GitHub Codespaces
+
+.devcontainer/*.env
+
+# Database
+
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Temporary
+
+tmp/
+temp/
+
+# JetBrains
+
+.idea/
+
+# Backup
+
+*.bak
+*.old
+*.orig
+
+# Generated files
+
+wwwroot/uploads/
+wwwroot/files/
+wwwroot/temp/
+
+# Terraform
+
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Docker
+
+docker-compose.override.yml
