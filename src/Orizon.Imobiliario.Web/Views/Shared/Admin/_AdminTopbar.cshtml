@@ -1,0 +1,75 @@
+<header class="admin-topbar">
+    <div class="admin-topbar__left">
+        <button type="button"
+                class="admin-icon-button admin-menu-button"
+                aria-label="Abrir menu"
+                data-admin-open>
+            <i class="ph ph-list"></i>
+        </button>
+
+        <div>
+            <span class="admin-topbar__eyebrow">Área administrativa</span>
+            <strong class="admin-topbar__title">
+                @ViewData["Title"]
+            </strong>
+        </div>
+    </div>
+
+    <div class="admin-topbar__right">
+        <button type="button"
+                class="admin-icon-button"
+                aria-label="Notificações">
+            <i class="ph ph-bell"></i>
+        </button>
+
+        <div class="dropdown">
+            <button class="admin-user dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+
+                <span class="admin-user__avatar">
+                    @(User.Identity?.Name?.FirstOrDefault().ToString().ToUpperInvariant() ?? "A")
+                </span>
+
+                <span class="admin-user__details">
+                    <strong>@User.Identity?.Name</strong>
+                    <small>Administrador</small>
+                </span>
+            </button>
+
+            <ul class="dropdown-menu dropdown-menu-end admin-user-menu">
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <i class="ph ph-user"></i>
+                        Meu perfil
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <i class="ph ph-gear"></i>
+                        Configurações
+                    </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                    <form asp-area=""
+                          asp-controller="Account"
+                          asp-action="Logout"
+                          method="post">
+                        @Html.AntiForgeryToken()
+
+                        <button type="submit"
+                                class="dropdown-item admin-user-menu__logout">
+                            <i class="ph ph-sign-out"></i>
+                            Sair
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>

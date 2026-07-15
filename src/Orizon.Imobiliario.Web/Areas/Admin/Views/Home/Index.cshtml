@@ -1,0 +1,121 @@
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "_AdminLayout";
+}
+
+<section class="admin-page-header">
+    <div>
+        <span class="admin-eyebrow">Visão geral</span>
+        <h1>Bem-vindo ao Orizon Imobiliário</h1>
+        <p>
+            Acompanhe os principais indicadores e acesse rapidamente os módulos da plataforma.
+        </p>
+    </div>
+
+    <button type="button" class="admin-button admin-button--primary">
+        <i class="ph ph-plus"></i>
+        Novo atendimento
+    </button>
+</section>
+
+<section class="admin-stat-grid">
+    <article class="admin-stat-card">
+        <span class="admin-stat-card__icon">
+            <i class="ph ph-users-three"></i>
+        </span>
+
+        <div>
+            <small>Leads ativos</small>
+            <strong>0</strong>
+            <span>Nenhum lead cadastrado</span>
+        </div>
+    </article>
+
+    <article class="admin-stat-card">
+        <span class="admin-stat-card__icon">
+            <i class="ph ph-buildings"></i>
+        </span>
+
+        <div>
+            <small>Imóveis</small>
+            <strong>0</strong>
+            <span>Nenhum imóvel cadastrado</span>
+        </div>
+    </article>
+
+    <article class="admin-stat-card">
+        <span class="admin-stat-card__icon">
+            <i class="ph ph-scales"></i>
+        </span>
+
+        <div>
+            <small>Casos jurídicos</small>
+            <strong>0</strong>
+            <span>Nenhum caso em andamento</span>
+        </div>
+    </article>
+
+    <article class="admin-stat-card">
+        <span class="admin-stat-card__icon">
+            <i class="ph ph-handshake"></i>
+        </span>
+
+        <div>
+            <small>Negociações</small>
+            <strong>0</strong>
+            <span>Nenhuma negociação aberta</span>
+        </div>
+    </article>
+</section>
+
+<section class="admin-dashboard-grid">
+    <article class="admin-panel">
+        <div class="admin-panel__header">
+            <div>
+                <span class="admin-eyebrow">Atalhos</span>
+                <h2>Acesso rápido</h2>
+            </div>
+        </div>
+
+        <div class="admin-quick-grid">
+            <a href="#" class="admin-quick-card">
+                <i class="ph ph-user-plus"></i>
+                <strong>Novo cliente</strong>
+                <span>Cadastre um novo contato ou lead</span>
+            </a>
+
+            <a href="#" class="admin-quick-card">
+                <i class="ph ph-house-line"></i>
+                <strong>Novo imóvel</strong>
+                <span>Adicione um imóvel ao portfólio</span>
+            </a>
+
+            <a href="#" class="admin-quick-card">
+                <i class="ph ph-file-text"></i>
+                <strong>Novo caso</strong>
+                <span>Inicie um atendimento jurídico</span>
+            </a>
+
+            <a href="#" class="admin-quick-card">
+                <i class="ph ph-calendar-plus"></i>
+                <strong>Novo compromisso</strong>
+                <span>Agende uma reunião ou visita</span>
+            </a>
+        </div>
+    </article>
+
+    <article class="admin-panel">
+        <div class="admin-panel__header">
+            <div>
+                <span class="admin-eyebrow">Atividade</span>
+                <h2>Últimos registros</h2>
+            </div>
+        </div>
+
+        <div class="admin-empty-state">
+            <i class="ph ph-clock-counter-clockwise"></i>
+            <strong>Nenhuma atividade recente</strong>
+            <p>Os próximos registros da plataforma aparecerão aqui.</p>
+        </div>
+    </article>
+</section>

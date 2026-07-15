@@ -1,0 +1,91 @@
+<aside class="admin-sidebar" data-admin-sidebar>
+   <div class="admin-sidebar__header">
+    <a asp-area="Admin"
+       asp-controller="Home"
+       asp-action="Index"
+       class="admin-brand">
+
+        <span class="admin-brand__mark">O</span>
+
+        <span class="admin-brand__content">
+            <strong>Orizon</strong>
+            <small>Imobiliário</small>
+        </span>
+    </a>
+
+    <button type="button"
+            class="admin-icon-button admin-sidebar__collapse"
+            aria-label="Recolher menu"
+            title="Recolher menu"
+            data-admin-collapse>
+        <i class="ph ph-sidebar-simple"></i>
+    </button>
+
+    <button type="button"
+            class="admin-icon-button admin-sidebar__close"
+            aria-label="Fechar menu"
+            data-admin-close>
+        <i class="ph ph-x"></i>
+    </button>
+</div>
+
+    <nav class="admin-nav">
+        <p class="admin-nav__label">Principal</p>
+
+        <a asp-area="Admin"
+           asp-controller="Home"
+           asp-action="Index"
+           class="admin-nav__link">
+            <i class="ph ph-squares-four"></i>
+            <span>Dashboard</span>
+        </a>
+
+        <p class="admin-nav__label">Gestão</p>
+
+        <a href="#"
+           class="admin-nav__link">
+            <i class="ph ph-users-three"></i>
+            <span>CRM</span>
+        </a>
+
+        <a href="#"
+           class="admin-nav__link">
+            <i class="ph ph-buildings"></i>
+            <span>Imóveis</span>
+        </a>
+
+        <a href="#"
+           class="admin-nav__link">
+            <i class="ph ph-scales"></i>
+            <span>Direito Imobiliário</span>
+        </a>
+
+        <a href="#"
+           class="admin-nav__link">
+            <i class="ph ph-user-circle"></i>
+            <span>Portal do Cliente</span>
+        </a>
+
+        <p class="admin-nav__label">Inteligência</p>
+
+        <a href="#"
+           class="admin-nav__link">
+            <i class="ph ph-brain"></i>
+            <span>Assistente IA</span>
+        </a>
+
+        <a href="#"
+           class="admin-nav__link">
+            <i class="ph ph-chart-line-up"></i>
+            <span>Relatórios</span>
+        </a>
+    </nav>
+
+    <div class="admin-sidebar__footer">
+        <a href="#"
+           class="admin-nav__link">
+            <i class="ph ph-gear-six"></i>
+            <span>Configurações</span>
+        </a>
+    </div>
+</aside>

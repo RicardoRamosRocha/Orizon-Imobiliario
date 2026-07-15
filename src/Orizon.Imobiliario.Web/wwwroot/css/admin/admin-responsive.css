@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+
+    .admin-sidebar__collapse {
+        display: none;
+    }
+
+    body.admin-menu-open {
+        overflow: hidden;
+    }
+
+    .admin-sidebar {
+        transform: translateX(-100%);
+        transition: transform var(--admin-transition);
+    }
+
+    body.admin-menu-open .admin-sidebar {
+        transform: translateX(0);
+    }
+
+    .admin-sidebar__close,
+    .admin-menu-button {
+        display: inline-grid;
+    }
+
+    .admin-main {
+        margin-left: 0;
+    }
+
+    .admin-overlay {
+        display: block;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity var(--admin-transition);
+    }
+
+    body.admin-menu-open .admin-overlay {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
