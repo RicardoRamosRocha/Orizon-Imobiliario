@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Orizon.Imobiliario.Application\Orizon.Imobiliario.Application.csproj" />
     <ProjectReference Include="..\Orizon.Imobiliario.Infrastructure\Orizon.Imobiliario.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\Projetos\Orizon-UI\src\Orizon.UI\Orizon.UI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
